@@ -1,0 +1,46 @@
+{
+  "name": "express-react-todolist",
+  "version": "1.0.0",
+  "description": "Express React Bootstrap Jade Startup boilerplate",
+  "main": "app.js",
+  "scripts": {
+    "build": "gulp build",
+    "rebuild": "gulp rebuild",
+    "clean": "gulp clean",
+    "live": "gulp live",
+    "prod": "gulp production rebuild",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "babel-polyfill": "6.5.0",
+    "bootstrap.native": "^1.0.1",
+    "express": "4.13.4",
+    "immutable": "3.7.6",
+    "react": "0.14.6",
+    "react-dom": "0.14.6",
+    "react-immutable-proptypes": "1.6.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "6.3.13",
+    "babel-preset-react": "6.3.13",
+    "babelify": "7.2.0",
+    "browser-sync": "2.11.1",
+    "browserify": "13.0.0",
+    "browserify-incremental": "3.0.1",
+    "del": "2.2.0",
+    "es3ify": "0.2.1",
+    "gulp": "3.9.0",
+    "gulp-if": "2.0.0",
+    "gulp-jade": "1.1.0",
+    "gulp-streamify": "1.0.2",
+    "gulp-sync": "0.1.4",
+    "gulp-uglify": "1.5.1",
+    "gulp-util": "3.0.7",
+    "gulp-watch": "^4.3.5",
+    "merge-stream": "^1.0.0",
+    "sassify": "0.9.1",
+    "vinyl-source-stream": "1.1.0",
+    "watchify": "3.7.0"
+  },
+  "author": "JitCoder"
+}
